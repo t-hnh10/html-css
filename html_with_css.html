@@ -5,10 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>This is my first HTML with CSS page!</title>
+    <!-- link tag with a relative path has the details to the CSS file. This is the most preferred way of styling a webpage - Linked (link to an external file is included in the head tag) -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Style tag is used for Embedded CSS in the HEAD tag of HTML -->
+    <style>
+        h1 {
+            color: #0000FF;
+            font-size: 70px;
+        }
+    </style>
 </head>
 <body>
-    <h1 style= "color: rgb(0, 0, 225); font-size: 50px;">Welcome to the world of CSS</h1>
-    <h1 style= "color: blue; font-size: 50px;">Welcome to the world of CSS</h1>
-    <h1 style= "color: #0000FF; font-size: 50px;">Welcome to the world of CSS</h1>
+    <h1 style="color: rgb(0, 0, 225); font-size: 50px;">Welcome to the world of CSS</h1>
+    <!-- <h1 style= "color: blue; font-size: 50px;">Welcome to the world of CSS</h1>
+    <h1 style= "color: #0000FF; font-size: 50px;">Welcome to the world of CSS</h1> -->
+    <p>
+        If we visualise our web page as a building then HTML would be the bricks and CSS would be the paint. CSS stand for cascading style sheets and we will see why that cascading part is very important.
+    </p>
+    <ul id="id_for_ul">
+        <!-- Example for adding more than one class to a HTML element -->
+        <li id="id_for_li">All about id attribute
+            <p>This is an example for an ul having an id attribute</p>
+        </li>
+        <!-- Example for adding a class to a HTML element -->
+        <li> class="myClassStyles1">All about classes
+            <p>This is an example for using a class for selecting multiple elemnts for styling across different .html files</p>
+        </li>
+    </ul>
+    <!-- Example for !important tag -->
+    <h2 id="color">Important Tag</h2>
 </body>
 </html>
