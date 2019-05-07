@@ -1,0 +1,51 @@
+/* This is a CSS block and its called a rule 
+The rule has a selector and a property value pair
+The property value pair is called a declaration */
+h1 {
+    color: #EC2121;
+    font-size: 70px;
+}
+
+/* p {
+    background-color: black;
+}
+p {
+    background-color: green;
+}
+p {
+    background-color: red;
+} */
+
+/* id attribute and its value */
+#id_for_ul{
+    color: #65E161;
+}
+
+#id_for_li{
+    color: burlywood;
+}
+
+/* Classes in .css file */
+.myClassStyles1 {
+    color: #F6A61C;
+}
+
+.myClassStyles2 {
+    background-color: #C31CF6;
+}
+
+/* CSS Cascading Specificity */
+p {
+    color: purple;
+    font-family: Helvetica;
+}
+
+/* !important tag */
+h2 {
+    color:greenyellow
+}
+
+/* Pseudo Classes example :hover */
+h2:hover {
+    color: purple;
+}
